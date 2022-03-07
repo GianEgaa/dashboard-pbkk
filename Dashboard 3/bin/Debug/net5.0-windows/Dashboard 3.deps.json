@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Dashboard 3/1.0.0": {
+        "dependencies": {
+          "FontAwesome.WPF": "4.7.0.9",
+          "wpf.fontawesome5": "5.12.0.1"
+        },
+        "runtime": {
+          "Dashboard 3.dll": {}
+        }
+      },
+      "FontAwesome.WPF/4.7.0.9": {
+        "runtime": {
+          "lib/net40/FontAwesome.WPF.dll": {
+            "assemblyVersion": "4.7.0.37774",
+            "fileVersion": "4.7.0.9"
+          }
+        }
+      },
+      "wpf.fontawesome5/5.12.0.1": {
+        "runtime": {
+          "lib/net452/wpf.fontawesome5.dll": {
+            "assemblyVersion": "5.12.0.1",
+            "fileVersion": "5.12.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dashboard 3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FontAwesome.WPF/4.7.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SXE080rnyWMm9Dt0BZzMxh89/o9teuSaqL1N+0O/XM/F/HU8JuZA4XaEKxjBigwZPHHU3/udTa0QMYCHkmH43Q==",
+      "path": "fontawesome.wpf/4.7.0.9",
+      "hashPath": "fontawesome.wpf.4.7.0.9.nupkg.sha512"
+    },
+    "wpf.fontawesome5/5.12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8LSPFmf0ZYM5FAkfPZuuKEx7/osKoKofRjAFE6oJ81mL6JzKviU1Dq0mjwo/FoGbCFzY6pXnUpcZssfmefLBdA==",
+      "path": "wpf.fontawesome5/5.12.0.1",
+      "hashPath": "wpf.fontawesome5.5.12.0.1.nupkg.sha512"
+    }
+  }
+}

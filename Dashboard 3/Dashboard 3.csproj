@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Dashboard_3</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\user.jpg" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+    <PackageReference Include="wpf.fontawesome5" Version="5.12.0.1" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Resource Include="Images\user.jpg" />
+  </ItemGroup>
+
+</Project>
